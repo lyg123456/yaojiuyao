@@ -10,6 +10,7 @@ class Home extends Common
     //接口访问：http://api.yaojiuyao.cn/
 	public function index()
 	{
+	    
 		return view('test/ci_dir');
 	}
 
