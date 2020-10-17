@@ -5,7 +5,7 @@
     <title>ci框架目录</title>
 </head>
 <body>
-
+<p>
 1.    myshop
 2.    |-----system                框架程序目录
 3.        |-----core          框架的核心程序
@@ -151,6 +151,6 @@
 88.
 89.    |-----index.php             入口文件
 90.    |-----admin.php             自定义后台入口文件
-
+</p>
 </body>
 </html>
