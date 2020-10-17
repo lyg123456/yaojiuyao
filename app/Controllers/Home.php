@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\Common\Common;
 
+
 class Home extends Common
 {
 
@@ -14,6 +15,7 @@ class Home extends Common
 		return view('test/ci_dir');
 	}
 
-	//--------------------------------------------------------------------
+
+    //--------------------------------------------------------------------
 
 }

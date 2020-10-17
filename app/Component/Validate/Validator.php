@@ -1,8 +1,6 @@
 <?php
 namespace app\Component\Validate;
 
-;
-use Huolala\Core\Exception\UnprocessableEntityHttpException;
 
 class Validator
 {

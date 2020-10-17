@@ -8,8 +8,8 @@
 namespace App\Controllers\Common;
 
 
-use App\Component\BaseController
-;
+use App\Component\BaseController;
+
 
 
 class Common extends BaseController

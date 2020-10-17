@@ -29,15 +29,16 @@ class Database extends \CodeIgniter\Database\Config
 	 *
 	 * @var array
 	 */
+
 	public $default = [
 		'DSN'      => '',
 		'hostname' => 'localhost',
-		'username' => '',
-		'password' => '',
-		'database' => '',
+		'username' => 'root',
+		'password' => 'root',
+		'database' => 'test',
 		'DBDriver' => 'MySQLi',
-		'DBPrefix' => '',
-		'pConnect' => false,
+		'DBPrefix' => 'ims_',
+		'pConnect' => true,
 		'DBDebug'  => (ENVIRONMENT !== 'production'),
 		'cacheOn'  => false,
 		'cacheDir' => '',
@@ -57,14 +58,15 @@ class Database extends \CodeIgniter\Database\Config
 	 *
 	 * @var array
 	 */
+/*
 	public $tests = [
 		'DSN'      => '',
 		'hostname' => '127.0.0.1',
-		'username' => '',
-		'password' => '',
-		'database' => ':memory:',
-		'DBDriver' => 'SQLite3',
-		'DBPrefix' => 'db_',  // Needed to ensure we're working correctly with prefixes live. DO NOT REMOVE FOR CI DEVS
+		'username' => 'root',
+		'password' => 'root',
+		'database' => 'test',
+		'DBDriver' => 'mysql',
+		'DBPrefix' => 'ims_',  // Needed to ensure we're working correctly with prefixes live. DO NOT REMOVE FOR CI DEVS
 		'pConnect' => false,
 		'DBDebug'  => (ENVIRONMENT !== 'production'),
 		'cacheOn'  => false,
@@ -78,7 +80,7 @@ class Database extends \CodeIgniter\Database\Config
 		'failover' => [],
 		'port'     => 3306,
 	];
-
+*/
 	//--------------------------------------------------------------------
 
 	public function __construct()

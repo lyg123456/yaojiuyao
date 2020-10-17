@@ -8,8 +8,14 @@
 
 namespace App\Models\Yaojiuyao;
 
-
-class Home
+class HomeModel
 {
 
+    public function index(){
+        $db = \Config\Database::connect();
+        $prefix = $db->getPrefix();
+        $res = $db->query('select * from '.$prefix.'users where uid=1');
+        
+        return $res;
+    }
 }
