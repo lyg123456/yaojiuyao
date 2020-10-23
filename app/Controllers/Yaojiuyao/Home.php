@@ -30,8 +30,7 @@ class Home extends Common
         $home = new HomeModel();
         $return = $home->index($params);
 
-        echo json_encode($return);
-        //return json_encode($return);
+        return json_encode($return);
     }
 
 }

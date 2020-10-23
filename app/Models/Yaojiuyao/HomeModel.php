@@ -14,8 +14,9 @@ class HomeModel
     public function index(){
         $db = \Config\Database::connect();
         $prefix = $db->getPrefix();
-        $res = $db->query('select * from '.$prefix.'users where uid=1');
-        
+        $sql = 'select * from '.$prefix.'users where uid=1';
+        $query = $db->query($sql);
+        $res = $query->getResult();
         return $res;
     }
 }
